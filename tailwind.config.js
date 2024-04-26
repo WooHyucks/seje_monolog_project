@@ -6,6 +6,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        mainBgColor: '#f9fafb',
+        sidebarBgColor : '#2E2E2E',
+        userinfoBgColor : '#3E3F41',
+        userInfoTextColor : '#8C8F94',
+        TapMenuUnChoiseColor : '#8C8F94'
       },
       maxWidth: {
         '900': '900px',

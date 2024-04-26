@@ -1,11 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+import ProductionPage from './pages/ProductionPage';
 
 function App() {
   return (
-    <div className="">
-      <h1 className=''>fsdfdsfds</h1>
+    <div>
+      <ProductionPage />
     </div>
   );
 }
