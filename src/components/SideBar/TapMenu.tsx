@@ -11,7 +11,7 @@ const TapMenu = ({ imgSrc, text, textColor }: TapMenu) => {
   return (
     <div className='flex items-center gap-2 mt-4'>
       <img src={`/images/${imgSrc}.svg`} alt="" />
-      <span className={`text-${textColor}`}>{text}</span>
+      <span className={`${textColor}`}>{text}</span>
     </div>
   )
 }

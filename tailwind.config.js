@@ -10,7 +10,10 @@ module.exports = {
         sidebarBgColor : '#2E2E2E',
         userinfoBgColor : '#3E3F41',
         userInfoTextColor : '#8C8F94',
-        TapMenuUnChoiseColor : '#8C8F94'
+        NavShadow : '#DEDFDF',
+        tapMenuUnChoiseColor : '#8C8F94',
+        scoreBgColor: '#eaf3f9',
+        scoreDataColor: '#5550FF'
       },
       maxWidth: {
         '900': '900px',

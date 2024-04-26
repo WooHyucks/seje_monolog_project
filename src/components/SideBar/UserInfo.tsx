@@ -29,12 +29,12 @@ const UserInfo = () => {
 
   return (
     <div className='bg-userinfoBgColor w-[169px] h-[138px] rounded-lg'>
-      {userData.map((data) => (
-        <div className='flex flex-col justify-center items-center' key={data.id}>
-          <img className='my-3 w-[40px] rounded-full' src={`/images/${data.imageUrl}.png`} alt={data.name} />
-          <span className='font-bold text-white' >{data.name}</span>
-          <span className='text-sm text-userInfoTextColor'>{data.role}</span>
-          <span className='text-sm text-white'>{truncate(data.email, 16)}</span>
+      {userData.map((userData) => (
+        <div className='flex flex-col justify-center items-center' key={userData.id}>
+          <img className='my-3 w-[40px] rounded-full' src={`/images/${userData.imageUrl}.png`} alt={userData.name} />
+          <span className='font-bold text-white' >{userData.name}</span>
+          <span className='text-sm text-userInfoTextColor'>{userData.role}</span>
+          <span className='text-sm text-white'>{truncate(userData.email, 16)}</span>
         </div>
       ))}
     </div>
