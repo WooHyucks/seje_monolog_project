@@ -1,4 +1,4 @@
-import React from 'react'
+import TopChart from '../../components/Chart/TopChart'
 import NavBar from '../../components/NavBar'
 import Score from '../../components/Score'
 import SelectBox from '../../components/SelectBox'
@@ -15,12 +15,13 @@ const ProductionPage = () => {
           <SelectBox Value='A-1' />
           <div className='p-[7px] border border-2 rounded-lg bg-gray-50 relative'>
             <span className='p-2 font-semibold'>
-              <span className="before:absolute before:left-[-10px] before:h-7 before:w-[2px] before:bg-gray-200  " />
+              <span className="before:absolute before:left-[-10px] before:h-7 before:w-[2px] before:bg-gray-200" />
               WL02Y018-RE2-001
             </span>
           </div>
         </div>
         <Score />
+        <TopChart />
       </div>
     </div>
   )
