@@ -2,21 +2,21 @@
   {
     "id": 1,
     "name": "Target",
-    "score": "600"
+    "score": 600
   },
   {
     "id": 2,
     "name": "Output",
-    "score": "495"
+    "score": 495
   },
   {
     "id": 3,
     "name": "Differance",
-    "score": "-105"
+    "score": -105
   },
   {
     "id": 4,
     "name": "Prediction",
-    "score": "85"
+    "score": 85
   }
 ]
