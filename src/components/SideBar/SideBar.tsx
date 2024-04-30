@@ -11,15 +11,17 @@ const SideBar = () => {
           <img className='w-7 ml-auto' src="/images/withdrawal.svg" alt="withdrawal" />
         </div>
         <UserInfo />
-        <TepMenu imgSrc="unChart" text="Line Management" textColor="text-tapMenuUnChoiseColor" />
+        <TepMenu imgSrc="unchart" text="Line Management" textColor="text-tapMenuUnChoiseColor" />
         <TepMenu imgSrc="chart" text="Real-Time Prod." textColor="text-white" />
       </div>
-      <div>
-        <TepMenu imgSrc="Star" text="Master" textColor="text-white" />
-        <TepMenu imgSrc="notifications" text="Threed" textColor="text-tapMenuUnChoiseColor" />
-        <TepMenu imgSrc="logout" text="Log out" textColor="text-tapMenuUnChoiseColor" />
-        <div className='my-10'>
-          <Logo width="10" />
+      <div className='flex flex-col justify-center'>
+        <div className='text-left'>
+          <TepMenu imgSrc="star" text="Master" textColor="text-white" />
+          <TepMenu imgSrc="notifications" text="Threed" textColor="text-tapMenuUnChoiseColor" />
+          <TepMenu imgSrc="logout" text="Log out" textColor="text-tapMenuUnChoiseColor" />
+        </div>
+        <div className='mb-9 mt-12 mx-2'>
+          <Logo width="170" />
         </div>
       </div>
     </div>

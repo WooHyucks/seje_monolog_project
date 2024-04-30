@@ -4,7 +4,7 @@ import { getData } from '../apis/apis';
 interface ScoreDataType {
   id: number;
   name: string;
-  score: string;
+  score: number;
 }
 
 const Score = () => {
@@ -21,7 +21,7 @@ const Score = () => {
   }, []);
 
   return (
-    <div className='flex justify-center gap-[30px]'>
+    <div className='flex'>
       {ScroeData.map((data) => (
         <ScoreList id={data.id} name={data.name} score={data.score} />
       ))}
@@ -33,7 +33,7 @@ export const ScoreList = ({
   id, name, score
 }: ScoreDataType) => {
   return (
-    <div className='w-[344px] h-[147px] border border-2 rounded-xl bg-scoreBgColor' key={id}>
+    <div className='mx-[13px] w-[344px] h-[147px] border-2 rounded-xl bg-scoreBgColor' key={id}>
       <div className="text-left p-7">
         <p className='text-gray-600 font-bold text-lg mb-2'>{name}</p>
         {name === "Prediction" ? (

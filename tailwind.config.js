@@ -13,7 +13,12 @@ module.exports = {
         NavShadow : '#DEDFDF',
         tapMenuUnChoiseColor : '#8C8F94',
         scoreBgColor: '#eaf3f9',
-        scoreDataColor: '#5550FF'
+        scoreDataColor: '#5550FF',
+        worstChartColor : '#F65959',
+        dountChartText : '#DEDFDF',
+        topChartRealColor : '#FF9B3F',
+        bottomChartBadColor : '#f659598c',
+        bottomChartGoddColor : '#4ECAFF'
       },
       maxWidth: {
         '900': '900px',

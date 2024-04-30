@@ -14,7 +14,7 @@ const UserInfo = () => {
   const [userData, setUserData] = useState<UserDataType[]>([])
 
   useEffect(() => {
-    getData("UserInfo")
+    getData("UserInfoData")
       .then((data) => {
         setUserData(data);
       })
@@ -30,7 +30,7 @@ const UserInfo = () => {
   return (
     <div className='bg-userinfoBgColor w-[169px] h-[138px] rounded-lg'>
       {userData.map((userData) => (
-        <div className='flex flex-col justify-center items-center' key={userData.id}>
+        <div className='flex flex-col justify-center items-center'>
           <img className='my-3 w-[40px] rounded-full' src={`/images/${userData.imageUrl}.png`} alt={userData.name} />
           <span className='font-bold text-white' >{userData.name}</span>
           <span className='text-sm text-userInfoTextColor'>{userData.role}</span>

@@ -1,0 +1,17 @@
+  {
+    "processAnalysis": {
+      "newSMV": 18,
+      "loss": 9.22,
+      "productive": 0.725,
+      "efficiency": 0.678,
+      "output": 4,
+      "best": {
+        "sewingTime": 3570,
+        "otherTime": 3312
+      },
+      "worst": {
+        "sewingTime": 23570,
+        "otherTime": 22312
+      }
+    }
+  }

@@ -7,7 +7,7 @@ type LogoType = {
 
 const Logo = ({ width }: LogoType) => {
   return (
-    <img className={`w-${width}`} src="/images/Logo.svg" alt="Logo" />
+    <img className={`w-${width}`} src="/images/logo.svg" alt="Logo" />
   )
 }
 
