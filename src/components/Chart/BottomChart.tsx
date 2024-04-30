@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import Chart from "react-apexcharts";
 import { getData } from "../../apis/apis";
-import { ApexOptions } from "apexcharts";
 
 interface BottomChartDataType {
   _id: string;
@@ -33,7 +32,7 @@ const BottomChart = () => {
     totalTime: (item.sewingTime + item.otherTime) / 10000,
   }));
 
-  const options: ApexOptions = {
+  const options = {
     chart: {
       toolbar: {
         show: false
